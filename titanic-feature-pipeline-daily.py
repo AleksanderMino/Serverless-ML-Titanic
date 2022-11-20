@@ -16,7 +16,7 @@ def generate_passenger(survived, age, sex, embarked, fare, pclass):
     import pandas as pd
     import random
 
-    df = pd.DataFrame({ "age_encoded": age,
+    df = pd.DataFrame({ "age_encoded": [age],
     "sex_encoded": sex,
     "embarked_encoded": embarked,
     "fare_encoded": fare,
